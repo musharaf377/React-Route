@@ -9,6 +9,7 @@ function App() {
     <>
         <Navbar></Navbar>
         <Outlet></Outlet>
+        <footer>It is changes</footer>
     </>
   )
 }
