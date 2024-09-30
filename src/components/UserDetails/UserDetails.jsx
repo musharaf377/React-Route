@@ -12,7 +12,7 @@ const UserDetails = () => {
 
     return ( 
         <div>
-            <h1>Name: {name}</h1>
+            <h1>Full Name: {name}</h1>
             <p>Phone: {phone}</p>
             <p>Email: {email}</p>
             <button onClick={clickBackHandler}>Back</button>
