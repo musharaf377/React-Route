@@ -33,8 +33,8 @@ const Login = () => {
     }
     return (
         <div>
-            <button onClick={signupHandle} className='btn button-success'> Sign in Google</button>
-            <button onClick={signOutHandle} className='btn button-success'> Sign Out</button>
+            {!user ? <button onClick={signupHandle} className='btn button-success'> Sign in Google</button> :
+            <button onClick={signOutHandle} className='btn button-success'> Sign Out</button>}
             {user && <div>User Name: {user.displayName} </div>}
         </div>
     );
