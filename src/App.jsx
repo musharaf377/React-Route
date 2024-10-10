@@ -9,7 +9,7 @@ function App() {
     <>
         <Navbar></Navbar>
         <Outlet></Outlet>
-        <footer>It is changes and again new text</footer>
+        <footer>This is footer seciton.</footer>
     </>
   )
 }

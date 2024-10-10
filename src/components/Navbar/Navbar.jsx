@@ -9,6 +9,7 @@ const Navbar = () => {
         { "id": 2, "path": "/users", "name": "Users" },
         { "id": 3, "path": "/blogs", "name": "Blogs" },
         { "id": 4, "path": "/contact", "name": "Contact" },
+        { "id": 4, "path": "/login", "name": "Login" },
     ];
 
     const [open, setOpen] = useState(false);
