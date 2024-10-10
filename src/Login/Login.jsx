@@ -36,6 +36,7 @@ const Login = () => {
             {!user ? <button onClick={signupHandle} className='btn button-success'> Sign in Google</button> :
             <button onClick={signOutHandle} className='btn button-success'> Sign Out</button>}
             {user && <div>User Name: {user.displayName} </div>}
+            {user && <div>User Email: {user.email} </div>}
         </div>
     );
 };
